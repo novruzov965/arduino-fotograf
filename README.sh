@@ -20,11 +20,11 @@ void loop() {
   DigiKeyboard.print("$client = new-object System.Net.WebClient");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("$client.DownloadFile(\"https://images.thedirect.com/media/article_full/gumball.jpg\" , \"doge.jpg\")");
+  DigiKeyboard.print("$client.DownloadFile(\"https://wallpapers.com/images/featured/gumball-xpgk46vx6wquujpv.jpg\" , \"doge.jpg\")");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
   DigiKeyboard.print("reg add \"HKCU\\Control Panel\\Desktop\" /v WallPaper /d \"%USERPROFILE%\\doge.jpg\" /f");
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
   DigiKeyboard.print("RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True");
